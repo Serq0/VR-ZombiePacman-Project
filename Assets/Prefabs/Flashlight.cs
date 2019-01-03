@@ -11,6 +11,7 @@ public class Flashlight : MonoBehaviour
     float reduceIntensity = 0.1f;
     float percentagePower = 100;
     // Start is called before the first frame update
+    //bool MicIn;
 
     void ReduceLight()
     {

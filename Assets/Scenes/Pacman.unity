@@ -801,40 +801,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 183297269}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &192635556
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 1795815238}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: 0
-    - _DistorsionPatternSpeedY: 0
-    - _DistorsionPatternTiling: 1
-    - _EnableDistorsionPattern: 0
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &195004995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,38 +1001,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 196256315}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &210942194
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: CircleGate1 RenderTexture 1
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 800
-  m_Height: 600
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 7
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &250369608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,6 +1089,40 @@ Transform:
   m_Father: {fileID: 1561568258}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &257370990
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.01
+    - _DistorsionPatternSpeedY: 0
+    - _DistorsionPatternTiling: 1
+    - _EnableDistorsionPattern: 0
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &280161113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,40 +1768,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 329357489}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &329819690
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 210942194}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: 0
-    - _DistorsionPatternSpeedY: 0
-    - _DistorsionPatternTiling: 1
-    - _EnableDistorsionPattern: 0
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &332966179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1994,7 +1928,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 865739399}
+      objectReference: {fileID: 1918796851}
     - target: {fileID: 4979416027729090, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.0063258316
@@ -2013,15 +1947,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4979416027729090, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9606108
+      value: -0.6883549
       objectReference: {fileID: 0}
     - target: {fileID: 4979416027729090, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5371307
+      value: 0.67635953
       objectReference: {fileID: 0}
     - target: {fileID: 4979416027729090, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.437794
+      value: 14.2431
       objectReference: {fileID: 0}
     - target: {fileID: 4224530710761594, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2041,20 +1975,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4224530710761594, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9606108
+      value: -0.6883549
       objectReference: {fileID: 0}
     - target: {fileID: 4224530710761594, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5371307
+      value: 0.67635953
       objectReference: {fileID: 0}
     - target: {fileID: 4224530710761594, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.315573
+      value: 21.120878
       objectReference: {fileID: 0}
     - target: {fileID: 20672847086194964, guid: 2cdffe070cd5af643b77fdc5133c6e3d,
         type: 3}
       propertyPath: far clip plane
-      value: 109618.47
+      value: 104685.64
       objectReference: {fileID: 0}
     - target: {fileID: 20672847086194964, guid: 2cdffe070cd5af643b77fdc5133c6e3d,
         type: 3}
@@ -2079,7 +2013,7 @@ PrefabInstance:
     - target: {fileID: 20335515421682200, guid: 2cdffe070cd5af643b77fdc5133c6e3d,
         type: 3}
       propertyPath: far clip plane
-      value: 109618.47
+      value: 104685.64
       objectReference: {fileID: 0}
     - target: {fileID: 20335515421682200, guid: 2cdffe070cd5af643b77fdc5133c6e3d,
         type: 3}
@@ -2105,7 +2039,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 192635556}
+      objectReference: {fileID: 468149672}
     - target: {fileID: 1447692864146308, guid: 2cdffe070cd5af643b77fdc5133c6e3d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -2608,38 +2542,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 446645078}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &486753586
-RenderTexture:
+--- !u!21 &468149672
+Material:
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CircleGate2 RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 800
-  m_Height: 600
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 7
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: 0
+    - _DistorsionPatternSpeedY: 0
+    - _DistorsionPatternTiling: 1
+    - _EnableDistorsionPattern: 0
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &498534227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,6 +3014,7 @@ Transform:
   m_Children:
   - {fileID: 1403821606}
   - {fileID: 1877400729}
+  - {fileID: 1202943719}
   m_Father: {fileID: 878315195}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 272.14, z: 0}
@@ -4342,38 +4279,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 841570449}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &844137663
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: CircleGate1 RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 800
-  m_Height: 600
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 7
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &846319087
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,40 +4370,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846319087}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &865739399
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 486753586}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.01
-    - _DistorsionPatternSpeedY: 0
-    - _DistorsionPatternTiling: 1
-    - _EnableDistorsionPattern: 0
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &866295812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4680,7 +4551,6 @@ Transform:
   m_Children:
   - {fileID: 534669905}
   - {fileID: 1033166952}
-  - {fileID: 1202943719}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 272.14, z: 0}
@@ -5911,6 +5781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040991442}
   - component: {fileID: 1040991441}
+  - component: {fileID: 1040991443}
   m_Layer: 0
   m_Name: MicrophoneInput
   m_TagString: Untagged
@@ -5932,7 +5803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loudText: {fileID: 1908343350}
   MicLoudness: 0
-  sensitivity: 0.95
+  sensitivity: 0.7
   flapped: 0
   flashPower: {fileID: 1877400727}
 --- !u!4 &1040991442
@@ -5949,6 +5820,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1040991443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040991440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaca038bfe5200c4cbf0b97b39fb009a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MicroIn: 1
 --- !u!1001 &1093769259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6519,6 +6403,40 @@ PrefabInstance:
       objectReference: {fileID: 559386411}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cad8129bc316794bb4a84e80b972649, type: 3}
+--- !u!21 &1157379709
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: 0
+    - _DistorsionPatternSpeedY: 0
+    - _DistorsionPatternTiling: 1
+    - _EnableDistorsionPattern: 0
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &1179402697 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632871955977147337, guid: 011b4cac1ff6b834c8024256b0b9620e,
@@ -7334,40 +7252,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338950131}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1346970770
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 844137663}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.01
-    - _DistorsionPatternSpeedY: 0
-    - _DistorsionPatternTiling: 1
-    - _EnableDistorsionPattern: 0
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1354630013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9900,7 +9784,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1346970770}
+      objectReference: {fileID: 257370990}
     - target: {fileID: 114363194651755080, guid: 9a9c97bc5566dc44b97def8741834c03,
         type: 3}
       propertyPath: AutoPair.Enable
@@ -9929,15 +9813,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4673620346925816, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.89561266
+      value: 0.62335676
       objectReference: {fileID: 0}
     - target: {fileID: 4673620346925816, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.51213074
+      value: 0.65135956
       objectReference: {fileID: 0}
     - target: {fileID: 4673620346925816, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.7565117
+      value: 2.951204
       objectReference: {fileID: 0}
     - target: {fileID: 4123414687339400, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9957,20 +9841,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4123414687339400, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.89561266
+      value: 0.62335676
       objectReference: {fileID: 0}
     - target: {fileID: 4123414687339400, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.51213074
+      value: 0.65135956
       objectReference: {fileID: 0}
     - target: {fileID: 4123414687339400, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.634291
+      value: 9.828982
       objectReference: {fileID: 0}
     - target: {fileID: 20224535025257624, guid: 9a9c97bc5566dc44b97def8741834c03,
         type: 3}
       propertyPath: far clip plane
-      value: 109618.47
+      value: 104685.64
       objectReference: {fileID: 0}
     - target: {fileID: 20224535025257624, guid: 9a9c97bc5566dc44b97def8741834c03,
         type: 3}
@@ -9995,7 +9879,7 @@ PrefabInstance:
     - target: {fileID: 20847915048379810, guid: 9a9c97bc5566dc44b97def8741834c03,
         type: 3}
       propertyPath: far clip plane
-      value: 109618.47
+      value: 104685.64
       objectReference: {fileID: 0}
     - target: {fileID: 20847915048379810, guid: 9a9c97bc5566dc44b97def8741834c03,
         type: 3}
@@ -10021,7 +9905,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 329819690}
+      objectReference: {fileID: 1157379709}
     - target: {fileID: 1761937486863984, guid: 9a9c97bc5566dc44b97def8741834c03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -10248,38 +10132,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 011b4cac1ff6b834c8024256b0b9620e, type: 3}
---- !u!84 &1795815238
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: CircleGate2 RenderTexture 1
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 800
-  m_Height: 600
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 7
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1805477132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11760,6 +11612,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c375a17f5f510d44c839b216989e242d, type: 3}
+--- !u!21 &1918796851
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.01
+    - _DistorsionPatternSpeedY: 0
+    - _DistorsionPatternTiling: 1
+    - _EnableDistorsionPattern: 0
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1943837784
 GameObject:
   m_ObjectHideFlags: 0
@@ -13827,7 +13713,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 878315195}
+    m_TransformParent: {fileID: 534669905}
     m_Modifications:
     - target: {fileID: 100000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_Name
@@ -13855,11 +13741,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.47337547
+      value: -0.47337544
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.47337547
+      value: 0.47337544
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_RootOrder
@@ -13879,7 +13765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.621118
+      value: 0.6211183
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b694b8ec5c41f6247843a2b67222fda6, type: 3}
       propertyPath: m_LocalScale.y

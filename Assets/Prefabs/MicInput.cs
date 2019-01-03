@@ -10,7 +10,7 @@ public class MicInput : MonoBehaviour
 
     AudioClip microphoneInput;
     bool microphoneInitialized;
-    public float sensitivity;
+    public float sensitivity = 0.7f;
     public bool flapped;
 
     public GameObject flashPower;
@@ -56,10 +56,17 @@ public class MicInput : MonoBehaviour
         
 
     }
-        if (level < sensitivity) //&& flapped
-            //flapped = false;
-
-        loudText.text = level.ToString();
+        if (microphoneInitialized)
+        {
+            if (level < sensitivity)
+            {
+                loudText.text = level.ToString();
+            }
+        }
+        else
+        {
+            loudText.text = "";
+        }
     }
 
 }
