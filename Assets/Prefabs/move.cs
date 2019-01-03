@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class move : MonoBehaviour {
+    public Material materialGround;
+    public GameObject ground;
     GameObject gobj;
     public int SPEED = 3;
     public bool moving = false;
@@ -12,11 +14,13 @@ public class move : MonoBehaviour {
     public int count;
 	// Use this for initialization
 	void Start () {
+        //ground.GetComponent<MeshRenderer>().material = materialGround;
         count = 8;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        //ground.GetComponent<MeshRenderer>().material = materialGround; //cos sie zepsulo - to fix
 
         if (Input.GetButtonDown("Fire1"))
         {
@@ -28,12 +32,10 @@ public class move : MonoBehaviour {
             transform.position = transform.position + Camera.main.transform.forward * SPEED * Time.deltaTime;
         }
 
-        if (transform.position.y < -10)
+        if (transform.position.y < 0.77f)
         {
             SceneManager.LoadScene("Pacman");
         }
-
-
         
 	}
 
