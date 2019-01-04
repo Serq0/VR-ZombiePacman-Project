@@ -12,12 +12,13 @@ public class zombie : MonoBehaviour
     int MaxDist = 2;
     int MinDist = 1;
 
-
+    
 
 
     void Start()
     {
         nmAgent.speed = MoveSpeed;
+        
     }
 
     void Update()

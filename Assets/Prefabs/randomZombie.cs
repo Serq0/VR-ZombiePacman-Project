@@ -8,36 +8,71 @@ public class randomZombie : MonoBehaviour
 
     public NavMeshAgent nmAgent;
     public GameObject[] SpawnObjects;
-    float MoveSpeed = 2.0f;
-    int MaxDist = 2;
+    public Transform Player;
+    float MoveSpeed = 1.5f;
+    float MaxDist = 2.5f;
     int MinDist = 1;
+    int StartChasingDistance = 6;
     int RandomOption;
-    
+    public bool chasePlayer;
 
+    private Animator animator;
 
     void Start()
     {
         nmAgent.speed = MoveSpeed;
         RandomOption = Random.Range(0, SpawnObjects.Length);
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        transform.LookAt(SpawnObjects[RandomOption].transform);
-
-        if (Vector3.Distance(transform.position, SpawnObjects[RandomOption].transform.position) >= MinDist)
+        if (Vector3.Distance(transform.position, Player.position) <= StartChasingDistance)
         {
+            chasePlayer = true;
+        }
+        else
+        {
+            chasePlayer = false;
+        }
 
-            //transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-            nmAgent.SetDestination(SpawnObjects[RandomOption].transform.position);
 
-
-            if (Vector3.Distance(transform.position, SpawnObjects[RandomOption].transform.position) <= MaxDist)
+        if (chasePlayer)
+        {
+            transform.LookAt(Player);
+            if (Vector3.Distance(transform.position, Player.position) >= MinDist)
             {
-                RandomOption = Random.Range(0, SpawnObjects.Length);
+                //transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+                nmAgent.SetDestination(Player.position);
+
+                if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
+                {
+                    animator.SetTrigger("attack");
+                }
+
+            }
+        }
+
+        if (!chasePlayer)
+        {
+            transform.LookAt(SpawnObjects[RandomOption].transform);
+
+            if (Vector3.Distance(transform.position, SpawnObjects[RandomOption].transform.position) >= MinDist)
+            {
+
+                //transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+                nmAgent.SetDestination(SpawnObjects[RandomOption].transform.position);
+
+
+                if (Vector3.Distance(transform.position, SpawnObjects[RandomOption].transform.position) <= MaxDist)
+                {
+                    RandomOption = Random.Range(0, SpawnObjects.Length);
+                }
+
             }
 
         }
+
     }
 
 }

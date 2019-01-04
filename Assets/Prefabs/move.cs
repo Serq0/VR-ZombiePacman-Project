@@ -32,7 +32,7 @@ public class move : MonoBehaviour {
             transform.position = transform.position + Camera.main.transform.forward * SPEED * Time.deltaTime;
         }
 
-        if (transform.position.y < 0.77f)
+        if (transform.position.y < 0.74f)
         {
             SceneManager.LoadScene("Pacman");
         }
