@@ -9,7 +9,7 @@ public class randomZombie : MonoBehaviour
     public NavMeshAgent nmAgent;
     public GameObject[] SpawnObjects;
     public Transform Player;
-    float MoveSpeed = 1.5f;
+    float MoveSpeed = 2.0f/2;
     float MaxDist = 2.5f;
     int MinDist = 1;
     int StartChasingDistance = 6;

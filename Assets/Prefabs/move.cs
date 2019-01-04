@@ -8,9 +8,10 @@ public class move : MonoBehaviour {
     public Material materialGround;
     public GameObject ground;
     GameObject gobj;
-    public int SPEED = 3;
+    float SPEED = 3.0f/2;
     public bool moving = false;
     public Text ctext;
+    public Text TutorialMove;
     public int count;
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,7 @@ public class move : MonoBehaviour {
         if (Input.GetButtonDown("Fire1"))
         {
             moving = !moving;
+            TutorialMove.gameObject.SetActive(false);
         }
 
         if (moving)

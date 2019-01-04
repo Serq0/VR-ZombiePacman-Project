@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class MicInput : MonoBehaviour
 {
     public Text loudText;
+    public Text TutorialFlash;
     public float MicLoudness;
-
     AudioClip microphoneInput;
     bool microphoneInitialized;
     public float sensitivity = 0.7f;
@@ -53,9 +53,9 @@ public class MicInput : MonoBehaviour
         {
             Flap();
             //flapped = true;
-        
+            TutorialFlash.gameObject.SetActive(false);
 
-    }
+        }
         if (microphoneInitialized)
         {
             if (level < sensitivity)
