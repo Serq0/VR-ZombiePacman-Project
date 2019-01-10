@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class randomZombie : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class randomZombie : MonoBehaviour
     public Transform Player;
     float MoveSpeed = 2.0f/2;
     float MaxDist = 2.5f;
+    float killPlayer = 1.2f;
     int MinDist = 1;
     int StartChasingDistance = 6;
     int RandomOption;
@@ -36,6 +38,10 @@ public class randomZombie : MonoBehaviour
             chasePlayer = false;
         }
 
+        if(Vector3.Distance(transform.position, Player.position) <= killPlayer)
+        {
+            SceneManager.LoadScene("Pacman");
+        }
 
         if (chasePlayer)
         {

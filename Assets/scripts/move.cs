@@ -34,10 +34,10 @@ public class move : MonoBehaviour {
             transform.position = transform.position + Camera.main.transform.forward * SPEED * Time.deltaTime;
         }
 
-        if (transform.position.y < 0.74f)
-        {
-            SceneManager.LoadScene("Pacman");
-        }
+        ///if (transform.position.y < 0.74f)
+       // {
+        //    SceneManager.LoadScene("Pacman");
+       // }
         
 	}
 
@@ -54,6 +54,10 @@ public class move : MonoBehaviour {
                 //ctext.gameObject.SetActive(false);
                 ctext.text = "thanks for playing :)";
             }
+        }
+        if (other.gameObject.CompareTag("Zombie"))
+        {
+            SceneManager.LoadScene("Pacman");
         }
     }
 
